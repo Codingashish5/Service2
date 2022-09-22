@@ -1,0 +1,17 @@
+<h1>{{title}}</h1>
+<ul>
+  <li *ngFor="let data of memberData">
+    {{data.name }}:<br>{{data.email}}:<br>{{data.password}}
+    
+  </li>
+</ul>
+<br>
+<ul>
+  <li *ngFor="let user of users">
+    {{user.name}}:{{user.age }}:<br>{{user.email}}:<br>{{user.password}}
+
+  </li>
+</ul>
+
+
+<app-footer></app-footer>

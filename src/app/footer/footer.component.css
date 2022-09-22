@@ -1,0 +1,8 @@
+.footer{
+    position: relative;
+    background-color: aqua;
+    width: 90%;
+    color:blue;
+    padding: 3px;;
+    bottom: 0%; 
+}

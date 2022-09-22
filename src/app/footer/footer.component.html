@@ -1,0 +1,16 @@
+<div class ="Footer" >
+    <h1>
+        Footer
+    </h1>
+    <li *ngFor="let data of memberData">
+        {{data.name }}:<br>{{data.email}}:<br>{{data.password}}
+    
+    
+      </li>
+      <ul>
+        <li *ngFor="let user of users">
+          {{user.name}}:{{user.age }}:<br>{{user.email}}:<br>{{user.password}}
+      
+        </li>
+        </ul>
+</div>
